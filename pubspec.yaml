@@ -52,11 +52,11 @@ flutter:
 
 icon_font:
   input_svg_dir: "boxicons-2.1.4-svg"
-  output_font_file: "fonts/boxicons.otf"
+  output_font_file: "fonts/flutter_boxicons.otf"
 
-  output_class_file: "lib/boxicons.dart"
-  class_name: "BoxIcons"
-  package: "boxicons"
+  output_class_file: "lib/flutter_boxicons.dart"
+  class_name: "Boxicons"
+  package: "flutter_boxicons"
   format: true
 
   recursive: true
