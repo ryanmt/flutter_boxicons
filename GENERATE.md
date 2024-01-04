@@ -19,4 +19,8 @@ dart run icon_font_generator:generator
 ```
 
 
+## Update
+Make sure the following lines are present in `lib/boxicons.dart`
 
+`library flutter_boxicons;`
+`static const iconFontFamily = 'Boxicons';`
