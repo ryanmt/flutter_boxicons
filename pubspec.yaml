@@ -1,8 +1,7 @@
 name: flutter_boxicons
 description: Boxicons (https://boxicons.com) customization for Flutter. You can use 2K+ more Boxicons.
 version: 3.0.0
-homepage: https://arifai.github.io
-repository: https://github.com/arifai/flutter_boxicons
+repository: https://github.com/ryanmt/flutter_boxicons
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
@@ -10,6 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+dev_dependencies:
+  icon_font_generator: ^4.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -52,3 +54,14 @@ flutter:
   #
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
+
+icon_font:
+  input_svg_dir: "boxicons-2.1.4-svg"
+  output_font_file: "fonts/boxicons.otf"
+
+  output_class_file: "lib/boxicons.dart"
+  class_name: "BoxIcons"
+  package: "boxicons"
+  format: true
+
+  recursive: true
